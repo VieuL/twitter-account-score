@@ -1,0 +1,31 @@
+{
+  "name": "twitter-account-score",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/main.ts",
+    "eslint": "npx eslint './src/**' --fix",
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "@types/twit": "^2.2.30",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-standard": "^17.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-nlp": "^4.24.0",
+    "twit": "^2.2.11",
+    "twitter-api-v2": "^1.12.3"
+  }
+}
