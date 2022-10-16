@@ -1,7 +1,7 @@
 {
-  "name": "twitter-account-score",
+  "name": "@vieul/twitter-account-score",
   "version": "1.0.0",
-  "description": "",
+  "description": "Calculating the score of a tweeter account",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
     "eslint": "npx eslint './src/**' --fix",
     "build": "npx tsc"
   },
-  "author": "",
+  "author": "vieul",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.0.3",
@@ -27,5 +27,19 @@
     "node-nlp": "^4.24.0",
     "twit": "^2.2.11",
     "twitter-api-v2": "^1.12.3"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VieuL/twitter-account-score.git"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "bugs": {
+    "url": "https://github.com/VieuL/twitter-account-score/issues"
+  },
+  "homepage": "https://github.com/VieuL/twitter-account-score#readme"
 }
