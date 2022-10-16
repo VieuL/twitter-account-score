@@ -4,6 +4,9 @@
   "description": "Calculating the score of a tweeter account",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node src/main.ts",
